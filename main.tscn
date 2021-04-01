@@ -1,0 +1,483 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://boid.tscn" type="PackedScene" id=1]
+[ext_resource path="res://icon.png" type="Texture" id=2]
+[ext_resource path="res://main.gd" type="Script" id=3]
+[ext_resource path="res://controlable_boid.tscn" type="PackedScene" id=4]
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 34.0723, 31.621 )
+
+[node name="main" type="Node2D"]
+script = ExtResource( 3 )
+
+[node name="boid" parent="." instance=ExtResource( 1 )]
+position = Vector2( 446.791, 274.625 )
+track = true
+
+[node name="boid2" parent="." instance=ExtResource( 1 )]
+position = Vector2( 446.791, 297.952 )
+
+[node name="boid4" parent="." instance=ExtResource( 1 )]
+position = Vector2( 481.14, 290.137 )
+
+[node name="boid3" parent="." instance=ExtResource( 1 )]
+position = Vector2( 481.14, 313.464 )
+
+[node name="boid6" parent="." instance=ExtResource( 1 )]
+position = Vector2( 658.426, 192.63 )
+rotation = 0.691227
+
+[node name="boid5" parent="." instance=ExtResource( 1 )]
+position = Vector2( 658.426, 215.957 )
+rotation = 0.691227
+
+[node name="boid8" parent="." instance=ExtResource( 1 )]
+position = Vector2( 626.293, 193.738 )
+rotation = 1.69232
+
+[node name="boid7" parent="." instance=ExtResource( 1 )]
+position = Vector2( 626.293, 217.065 )
+rotation = 1.69232
+
+[node name="boid16" parent="." instance=ExtResource( 1 )]
+position = Vector2( 73.5583, 144.485 )
+track = true
+
+[node name="boid15" parent="." instance=ExtResource( 1 )]
+position = Vector2( 73.5583, 167.812 )
+
+[node name="boid14" parent="." instance=ExtResource( 1 )]
+position = Vector2( 107.907, 159.997 )
+
+[node name="boid13" parent="." instance=ExtResource( 1 )]
+position = Vector2( 107.907, 183.324 )
+
+[node name="boid12" parent="." instance=ExtResource( 1 )]
+position = Vector2( 285.193, 62.4901 )
+rotation = 0.691227
+
+[node name="boid11" parent="." instance=ExtResource( 1 )]
+position = Vector2( 285.193, 85.8172 )
+rotation = 0.691227
+
+[node name="boid10" parent="." instance=ExtResource( 1 )]
+position = Vector2( 253.06, 63.5981 )
+rotation = 1.69232
+
+[node name="boid9" parent="." instance=ExtResource( 1 )]
+position = Vector2( 253.06, 86.9252 )
+rotation = 1.69232
+
+[node name="boid24" parent="." instance=ExtResource( 1 )]
+position = Vector2( 436.969, 69.5927 )
+track = true
+
+[node name="boid23" parent="." instance=ExtResource( 1 )]
+position = Vector2( 436.969, 92.9196 )
+
+[node name="boid22" parent="." instance=ExtResource( 1 )]
+position = Vector2( 471.318, 85.1051 )
+
+[node name="boid21" parent="." instance=ExtResource( 1 )]
+position = Vector2( 471.318, 108.432 )
+
+[node name="boid20" parent="." instance=ExtResource( 1 )]
+position = Vector2( 454.621, 331.365 )
+rotation = 0.691227
+
+[node name="boid19" parent="." instance=ExtResource( 1 )]
+position = Vector2( 454.621, 354.692 )
+rotation = 0.691227
+
+[node name="boid18" parent="." instance=ExtResource( 1 )]
+position = Vector2( 422.488, 332.473 )
+rotation = 1.69232
+
+[node name="boid17" parent="." instance=ExtResource( 1 )]
+position = Vector2( 422.488, 355.8 )
+rotation = 1.69232
+
+[node name="boid32" parent="." instance=ExtResource( 1 )]
+position = Vector2( 1402.36, 239.46 )
+rotation = 1.75989
+track = true
+
+[node name="boid31" parent="." instance=ExtResource( 1 )]
+position = Vector2( 1402.36, 262.787 )
+rotation = 1.75989
+
+[node name="boid30" parent="." instance=ExtResource( 1 )]
+position = Vector2( 1436.7, 254.972 )
+rotation = 1.75989
+
+[node name="boid29" parent="." instance=ExtResource( 1 )]
+position = Vector2( 1436.7, 278.299 )
+rotation = 1.75989
+
+[node name="boid28" parent="." instance=ExtResource( 1 )]
+position = Vector2( 923.617, 427.129 )
+rotation = 2.45112
+
+[node name="boid27" parent="." instance=ExtResource( 1 )]
+position = Vector2( 923.617, 450.456 )
+rotation = 2.45112
+
+[node name="boid26" parent="." instance=ExtResource( 1 )]
+position = Vector2( 891.484, 428.237 )
+rotation = 3.45221
+
+[node name="boid25" parent="." instance=ExtResource( 1 )]
+position = Vector2( 891.484, 451.564 )
+rotation = 3.45221
+
+[node name="boid64" parent="." instance=ExtResource( 1 )]
+position = Vector2( 386.791, 316.73 )
+track = true
+
+[node name="boid63" parent="." instance=ExtResource( 1 )]
+position = Vector2( 386.791, 340.057 )
+
+[node name="boid62" parent="." instance=ExtResource( 1 )]
+position = Vector2( 421.14, 332.243 )
+
+[node name="boid61" parent="." instance=ExtResource( 1 )]
+position = Vector2( 421.14, 355.57 )
+
+[node name="boid60" parent="." instance=ExtResource( 1 )]
+position = Vector2( 598.425, 234.736 )
+rotation = 0.691227
+
+[node name="boid59" parent="." instance=ExtResource( 1 )]
+position = Vector2( 598.425, 258.063 )
+rotation = 0.691227
+
+[node name="boid58" parent="." instance=ExtResource( 1 )]
+position = Vector2( 566.293, 235.844 )
+rotation = 1.69232
+
+[node name="boid57" parent="." instance=ExtResource( 1 )]
+position = Vector2( 566.293, 259.171 )
+rotation = 1.69232
+
+[node name="boid56" parent="." instance=ExtResource( 1 )]
+position = Vector2( 13.5583, 186.59 )
+track = true
+
+[node name="boid55" parent="." instance=ExtResource( 1 )]
+position = Vector2( 13.5583, 209.917 )
+
+[node name="boid54" parent="." instance=ExtResource( 1 )]
+position = Vector2( 47.9073, 202.102 )
+
+[node name="boid53" parent="." instance=ExtResource( 1 )]
+position = Vector2( 47.9073, 225.43 )
+
+[node name="boid52" parent="." instance=ExtResource( 1 )]
+position = Vector2( 225.193, 104.595 )
+rotation = 0.691227
+
+[node name="boid51" parent="." instance=ExtResource( 1 )]
+position = Vector2( 225.193, 127.922 )
+rotation = 0.691227
+
+[node name="boid50" parent="." instance=ExtResource( 1 )]
+position = Vector2( 193.06, 105.703 )
+rotation = 1.69232
+
+[node name="boid49" parent="." instance=ExtResource( 1 )]
+position = Vector2( 193.06, 129.03 )
+rotation = 1.69232
+
+[node name="boid48" parent="." instance=ExtResource( 1 )]
+position = Vector2( 376.969, 111.698 )
+track = true
+
+[node name="boid47" parent="." instance=ExtResource( 1 )]
+position = Vector2( 376.969, 135.025 )
+
+[node name="boid46" parent="." instance=ExtResource( 1 )]
+position = Vector2( 411.318, 127.21 )
+
+[node name="boid45" parent="." instance=ExtResource( 1 )]
+position = Vector2( 411.318, 150.537 )
+
+[node name="boid44" parent="." instance=ExtResource( 1 )]
+position = Vector2( 394.621, 373.47 )
+rotation = 0.691227
+
+[node name="boid43" parent="." instance=ExtResource( 1 )]
+position = Vector2( 394.621, 396.797 )
+rotation = 0.691227
+
+[node name="boid42" parent="." instance=ExtResource( 1 )]
+position = Vector2( 362.488, 374.578 )
+rotation = 1.69232
+
+[node name="boid41" parent="." instance=ExtResource( 1 )]
+position = Vector2( 362.488, 397.905 )
+rotation = 1.69232
+
+[node name="boid40" parent="." instance=ExtResource( 1 )]
+position = Vector2( 1342.36, 281.565 )
+rotation = 1.75989
+track = true
+
+[node name="boid39" parent="." instance=ExtResource( 1 )]
+position = Vector2( 1342.36, 304.892 )
+rotation = 1.75989
+
+[node name="boid38" parent="." instance=ExtResource( 1 )]
+position = Vector2( 1376.7, 297.078 )
+rotation = 1.75989
+
+[node name="boid37" parent="." instance=ExtResource( 1 )]
+position = Vector2( 1376.7, 320.405 )
+rotation = 1.75989
+
+[node name="boid36" parent="." instance=ExtResource( 1 )]
+position = Vector2( 863.617, 469.234 )
+rotation = 2.45112
+
+[node name="boid35" parent="." instance=ExtResource( 1 )]
+position = Vector2( 863.617, 492.561 )
+rotation = 2.45112
+
+[node name="boid34" parent="." instance=ExtResource( 1 )]
+position = Vector2( 831.484, 470.342 )
+rotation = 3.45221
+
+[node name="boid33" parent="." instance=ExtResource( 1 )]
+position = Vector2( 831.484, 493.669 )
+rotation = 3.45221
+
+[node name="mainwall" type="StaticBody2D" parent="."]
+position = Vector2( -169.509, 334.026 )
+scale = Vector2( 2.90897, 10.9415 )
+
+[node name="icon" type="Sprite" parent="mainwall"]
+modulate = Color( 0, 0, 0, 1 )
+texture = ExtResource( 2 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="mainwall"]
+shape = SubResource( 1 )
+
+[node name="mainwall2" type="StaticBody2D" parent="."]
+position = Vector2( 62.1121, 780.41 )
+rotation = 1.57079
+scale = Vector2( 2.90897, 10.9415 )
+
+[node name="icon" type="Sprite" parent="mainwall2"]
+modulate = Color( 0, 0, 0, 1 )
+texture = ExtResource( 2 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="mainwall2"]
+shape = SubResource( 1 )
+
+[node name="mainwall4" type="StaticBody2D" parent="."]
+position = Vector2( 743.646, 773.56 )
+rotation = 1.57079
+scale = Vector2( 2.90897, 10.9415 )
+
+[node name="icon" type="Sprite" parent="mainwall4"]
+modulate = Color( 0, 0, 0, 1 )
+texture = ExtResource( 2 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="mainwall4"]
+shape = SubResource( 1 )
+
+[node name="mainwall5" type="StaticBody2D" parent="."]
+position = Vector2( 1408.05, 773.56 )
+rotation = 1.57079
+scale = Vector2( 2.90897, 10.9415 )
+
+[node name="icon" type="Sprite" parent="mainwall5"]
+modulate = Color( 0, 0, 0, 1 )
+texture = ExtResource( 2 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="mainwall5"]
+shape = SubResource( 1 )
+
+[node name="mainwall8" type="StaticBody2D" parent="."]
+position = Vector2( 51.8377, -106.611 )
+rotation = 1.57079
+scale = Vector2( 2.90897, 10.9415 )
+
+[node name="icon" type="Sprite" parent="mainwall8"]
+modulate = Color( 0, 0, 0, 1 )
+texture = ExtResource( 2 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="mainwall8"]
+shape = SubResource( 1 )
+
+[node name="mainwall7" type="StaticBody2D" parent="."]
+position = Vector2( 733.371, -113.461 )
+rotation = 1.57079
+scale = Vector2( 2.90897, 10.9415 )
+
+[node name="icon" type="Sprite" parent="mainwall7"]
+modulate = Color( 0, 0, 0, 1 )
+texture = ExtResource( 2 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="mainwall7"]
+shape = SubResource( 1 )
+
+[node name="mainwall6" type="StaticBody2D" parent="."]
+position = Vector2( 1397.78, -113.461 )
+rotation = 1.57079
+scale = Vector2( 2.90897, 10.9415 )
+
+[node name="icon" type="Sprite" parent="mainwall6"]
+modulate = Color( 0, 0, 0, 1 )
+texture = ExtResource( 2 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="mainwall6"]
+shape = SubResource( 1 )
+
+[node name="mainwall3" type="StaticBody2D" parent="."]
+position = Vector2( 1675.86, 338.916 )
+scale = Vector2( 2.90897, 10.9415 )
+
+[node name="icon" type="Sprite" parent="mainwall3"]
+modulate = Color( 0, 0, 0, 1 )
+texture = ExtResource( 2 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="mainwall3"]
+shape = SubResource( 1 )
+
+[node name="wall3" type="StaticBody2D" parent="." groups=[
+"walls",
+]]
+position = Vector2( 723.189, 741.561 )
+rotation = 3.14159
+collision_layer = 2
+collision_mask = 3
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="wall3"]
+position = Vector2( 15.0315, 30.0633 )
+polygon = PoolVector2Array( 441.682, 555.604, 332.208, 556.656, 333.261, 434.551, 438.524, 432.446 )
+
+[node name="Sprite" type="Sprite" parent="wall3"]
+modulate = Color( 0, 1, 0.0862745, 1 )
+position = Vector2( 406.227, 528.324 )
+scale = Vector2( 1.68301, 1.87143 )
+texture = ExtResource( 2 )
+
+[node name="wall4" type="StaticBody2D" parent="." groups=[
+"walls",
+]]
+position = Vector2( 1114.84, 908.534 )
+rotation = 3.14159
+collision_layer = 2
+collision_mask = 3
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="wall4"]
+position = Vector2( 15.0315, 30.0633 )
+polygon = PoolVector2Array( 441.682, 555.604, 332.208, 556.656, 333.261, 434.551, 438.524, 432.446 )
+
+[node name="Sprite2" type="Sprite" parent="wall4"]
+modulate = Color( 0, 1, 0.0862745, 1 )
+position = Vector2( 402.955, 523.46 )
+scale = Vector2( 1.68301, 1.87143 )
+texture = ExtResource( 2 )
+
+[node name="wall5" type="StaticBody2D" parent="." groups=[
+"walls",
+]]
+position = Vector2( 1571.56, 671.881 )
+rotation = 3.14159
+collision_layer = 2
+collision_mask = 3
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="wall5"]
+position = Vector2( 15.0315, 30.0633 )
+polygon = PoolVector2Array( 441.682, 555.604, 332.208, 556.656, 333.261, 434.551, 438.524, 432.446 )
+
+[node name="Sprite2" type="Sprite" parent="wall5"]
+modulate = Color( 0, 1, 0.0862745, 1 )
+position = Vector2( 402.955, 523.46 )
+scale = Vector2( 1.68301, 1.87143 )
+texture = ExtResource( 2 )
+
+[node name="wall7" type="StaticBody2D" parent="." groups=[
+"walls",
+]]
+position = Vector2( 1574.58, 792.469 )
+rotation = 3.14159
+collision_layer = 2
+collision_mask = 3
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="wall7"]
+position = Vector2( 15.0315, 30.0633 )
+polygon = PoolVector2Array( 441.682, 555.604, 332.208, 556.656, 333.261, 434.551, 438.524, 432.446 )
+
+[node name="Sprite2" type="Sprite" parent="wall7"]
+modulate = Color( 0, 1, 0.0862745, 1 )
+position = Vector2( 402.955, 523.46 )
+scale = Vector2( 1.68301, 1.87143 )
+texture = ExtResource( 2 )
+
+[node name="wall8" type="StaticBody2D" parent="." groups=[
+"walls",
+]]
+position = Vector2( 1579.1, 911.549 )
+rotation = 3.14159
+collision_layer = 2
+collision_mask = 3
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="wall8"]
+position = Vector2( 15.0315, 30.0633 )
+polygon = PoolVector2Array( 441.682, 555.604, 332.208, 556.656, 333.261, 434.551, 438.524, 432.446 )
+
+[node name="Sprite2" type="Sprite" parent="wall8"]
+modulate = Color( 0, 1, 0.0862745, 1 )
+position = Vector2( 402.955, 523.46 )
+scale = Vector2( 1.68301, 1.87143 )
+texture = ExtResource( 2 )
+
+[node name="wall9" type="StaticBody2D" parent="." groups=[
+"walls",
+]]
+position = Vector2( 1580.61, 1030.63 )
+rotation = 3.14159
+collision_layer = 2
+collision_mask = 3
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="wall9"]
+position = Vector2( 15.0315, 30.0633 )
+polygon = PoolVector2Array( 441.682, 555.604, 332.208, 556.656, 333.261, 434.551, 438.524, 432.446 )
+
+[node name="Sprite2" type="Sprite" parent="wall9"]
+modulate = Color( 0, 1, 0.0862745, 1 )
+position = Vector2( 402.955, 523.46 )
+scale = Vector2( 1.68301, 1.87143 )
+texture = ExtResource( 2 )
+
+[node name="wall10" type="StaticBody2D" parent="." groups=[
+"walls",
+]]
+position = Vector2( 936.974, 1092.43 )
+rotation = 3.14159
+collision_layer = 2
+collision_mask = 3
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="wall10"]
+position = Vector2( 15.0315, 30.0633 )
+polygon = PoolVector2Array( 441.682, 555.604, 332.208, 556.656, 333.261, 434.551, 438.524, 432.446 )
+
+[node name="Sprite2" type="Sprite" parent="wall10"]
+modulate = Color( 0, 1, 0.0862745, 1 )
+position = Vector2( 402.955, 523.46 )
+scale = Vector2( 1.68301, 1.87143 )
+texture = ExtResource( 2 )
+
+[node name="wall6" type="StaticBody2D" parent="." groups=[
+"walls",
+]]
+position = Vector2( 525.523, 934.316 )
+rotation = 3.14159
+collision_layer = 2
+collision_mask = 3
+
+[node name="player" parent="." instance=ExtResource( 4 )]
+position = Vector2( 192.561, 454.91 )
